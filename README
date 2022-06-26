@@ -1,0 +1,59 @@
+
+                                    CSCI6370 – Database Management
+                                               Summer’22
+                                Project1 – Relational Algebra Operators
+**********************************************************************************************************************************
+
+##### Contents of this File
+----------
+1) Introduction
+2) Requirements
+3) Build, Compilation and Running
+4) Implementation
+5) Contributors
+
+##### INTRODUCTION
+----------
+Project 1: Relational Algebra Operators
+This project contains various operators of relational algebra implemented in Java 17. Completed for CSCI 6370 Database Management at the University of Georgia.
+
+In the project the relational algebra operators are demonstrated on a database of movie details.
+Therefore the code was given by the instructor except the operators select, project, union, minus, and join operations were to be implemented by group members.
+
+##### REQUIREMENTS
+----------
+### JAVA 18
+Make sure you have java 17 installed in the system. Instructions to follow to set the environment is given in the below link.
+https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
+
+Instruction are given for Java 1.8 but you can follow the same similar instructions to set up the Java 17 environment.
+
+### SBT 1.6.2
+Make sure to have the sbt 1.6.2 version installed in the system.
+
+### IDEs
+In order to compile the program the following IDE's can be used(Intellij, eclipse....). We have used intelliJ.
+
+##### Build, Compilation and Running
+We are using sbt for building, compilation and running project.
+1) Get in the intelliJ IDE and when you get a prompt at bottom left for build sbt project click build.
+2) Click on the terminal option in IDE and make sure you are in the project location in the terminal.
+3) run sbt. This should open the sbt environment where you can compile and run the project.
+4) Next run compile. This should compile the project.
+5) Next run runMain MovieDB. This should run the main class i.e., MovieDB of our project and give the results out.
+
+
+##### IMPLEMENTATION
+----------
+We had implemented five Relational algebra operators on the database, they are
+	1.project
+	2.Select
+	3.Union
+	4.Minus
+	5.Join
+
+##### CONTRIBUTORS
+----------
+1) Project and minus operations are coded by Likitha Karnati.
+2) Select and Union operators are coded by Siva Narayana Kota
+3) sbt build file, environment setup and Join operators are coded by Vamshi Bitchala.
