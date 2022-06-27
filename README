@@ -22,8 +22,11 @@ Therefore the code was given by the instructor except the operators select, proj
 
 ##### REQUIREMENTS
 ----------
-### JAVA 18
-Make sure you have java 17 installed in the system. Instructions to follow to set the environment is given in the below link.
+
+This code should run with any Java version that is installed in your system.
+
+### JAVA 17
+We are using java 17 for our project. Instructions to follow to set the environment is given in the below link.
 https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 
 Instruction are given for Java 1.8 but you can follow the same similar instructions to set up the Java 17 environment.
