@@ -39,8 +39,8 @@ In order to compile the program the following IDE's can be used(Intellij, eclips
 
 ##### Build, Compilation and Running
 We are using sbt for building, compilation and running project.
-1) Get in the intelliJ IDE and when you get a prompt at bottom left for build sbt project click build.
-2) Click on the terminal option in IDE and make sure you are in the project location in the terminal.
+1) Get in the terminal in intelliJ IDE or open cmd terminal.
+2) Change the directory to the project folder.
 3) run sbt. This should open the sbt environment where you can compile and run the project.
 4) Next run compile. This should compile the project.
 5) Next run runMain MovieDB. This should run the main class i.e., MovieDB of our project and give the results out.
